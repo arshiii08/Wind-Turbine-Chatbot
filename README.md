@@ -23,6 +23,33 @@ The chatbot can:
 
 ---
 
+## 🗂️ Project Structure
+
+- `windturbine-chatbot/`
+  - `backend/`
+    - `app/`
+      - `main.py` – FastAPI entrypoint
+      - `models.py` – SQLAlchemy models
+      - `database.py` – DB connection setup
+      - `auth.py` – Login/Signup logic
+      - `xgb_fault_classifier.py` – XGBoost model loading & prediction
+      - `shap_explainer.py` – SHAP explainability utilities
+      - `deepseek_client.py` – OpenRouter API wrapper
+      - `get_error_logs_summary.py` – Error log summarization
+      - `...`
+    - `requirements.txt`
+  - `frontend/`
+    - `src/`
+      - `App.tsx` – React entrypoint
+      - `components/Sidebar.tsx`
+      - `components/ChatArea.tsx`
+      - `components/LoginModal.tsx`
+      - `hooks/useLocalStorage.ts`
+      - `...`
+    - `package.json`
+  - `README.md`
+---
+
 ## 🚀 Features
 
 ### 🔮 Fault Prediction

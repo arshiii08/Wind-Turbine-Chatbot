@@ -1,0 +1,15 @@
+feature,importance
+mtbf,0.15389842
+downtime_hrs,0.10078249
+gen_units,0.08962194
+availability,0.08167895
+fault_time,0.05781298
+mttr,0.050854083
+avg_wind_speed,0.044669207
+lull_hrs,0.0283081
+plf_percent,0.024453804
+ext_grid_down,0.018874917
+operating_hrs,0.018418355
+int_grid_down,0.0046936776
+pm_shut_down,0.0010114193
+capacity,0.0
